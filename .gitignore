@@ -1,0 +1,32 @@
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Django
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+*.pot
+local_settings.py
+db.sqlite3
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+
+# Static & Media
+staticfiles/
+media/
